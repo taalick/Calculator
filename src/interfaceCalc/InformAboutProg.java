@@ -8,7 +8,7 @@ public class InformAboutProg extends JFrame{
     public JTextArea inform;
     public InformAboutProg(){
         super("О программе");
-        String data = MathOperations.about_programm();
+        String data = MathOperations.aboutProgramm();
         inform = new JTextArea(data, 1, 55);
         inform.setLineWrap(true);
         inform.setWrapStyleWord(true);

@@ -93,7 +93,7 @@ public class ActionContentP {
         @Override
         public void actionPerformed(ActionEvent e) {
             String text = inputOutputText2.getText();
-            String num = MathOperations.square_root(text);
+            String num = MathOperations.squareRoot(text);
             inputOutputText2.replaceRange(null, 0, text.length());
             inputOutputText2.append(num);
         }
@@ -153,7 +153,7 @@ public class ActionContentP {
             String text = inputOutputText2.getText();
             int length = text.length();
             inputOutputText2.replaceRange(null, 0, length);
-            inputOutputText2.append(MathOperations.delete_the_last_character(text));
+            inputOutputText2.append(MathOperations.deleteTheLastCharacter(text));
         }
     }
 

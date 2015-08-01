@@ -55,7 +55,7 @@ public class LogicCalculator extends MathOperations {
         LogicCalculator.splitText(text);
         String equal = new String();
         Double equalDouble = null;
-        equalDouble = MathOperations.taking_percent(a, b);
+        equalDouble = MathOperations.takingPercent(a, b);
         equal = equalDouble.toString();
         return equal;
     }

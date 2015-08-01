@@ -6,31 +6,26 @@ import java.io.*;
 public class MathOperations  {
 
     public static Double addition(Double a, Double b) {
-        Double c = a + b;
-        return c;
+        return a + b;
     }
 
     public static Double subtraction(Double a, Double b) {
-        Double c = a - b;
-        return c;
+        return a - b;
     }
 
     public static Double division(Double a, Double b) {
-        Double c = a / b;
-        return c;
+        return a / b;
     }
 
     public static Double multiplication(Double a, Double b) {
-        Double c = a * b;
-        return c;
+        return a * b;
     }
 
-    public static Double taking_percent(Double a, Double b) {
-        Double c = a/100*b;
-        return c;
+    public static Double takingPercent(Double a, Double b) {
+        return a/100*b;
     }
 
-    public static String square_root(String a) {
+    public static String squareRoot(String a) {
         Double aDouble = new Double(a);
         Double b = (double)0;
         if(isFractionalAndIntegerNumber(a)){
@@ -48,15 +43,14 @@ public class MathOperations  {
         return b.toString();
     }
 
-    public static String delete_the_last_character(String s) {
+    public static String deleteTheLastCharacter(String s) {
         int sLenght = s.length();
-        String s1 = s.substring(0, sLenght-1);
-        return s1;
+        return s.substring(0, sLenght-1);
     }
 
     // Write a string to a file, if the file does not exist is created if a file exists and removes and the newly creates
     // Returns the true if the file includes some characters other than "0", "0.0" or null, otherwise false
-    public static boolean memory_write(String a) {
+    public static boolean memoryWrite(String a) {
         boolean fullMemory = true;
         try{
             File file = new File("D:\\Calculator\\calculator_memory.txt");
@@ -102,7 +96,7 @@ public class MathOperations  {
         return fullMemory;
     }
 
-    public static boolean addition_memory(String a) {
+    public static boolean additionMemory(String a) {
         boolean fullMemory = true;
         try{
         File file = new File("D:\\Calculator\\calculator_memory.txt");
@@ -127,14 +121,14 @@ public class MathOperations  {
             // input to console
             System.out.println("Input to memory " + sum);
 
-            fullMemory = memory_write(sum.toString());
+            fullMemory = memoryWrite(sum.toString());
             inputStream.close();
         } catch (IOException e){
         } catch (NumberFormatException e){}
         return fullMemory;
     }
 
-    public static boolean subtraction_memory(String a) {
+    public static boolean subtractionMemory(String a) {
         boolean fullMemory = true;
         try{
             File file = new File("D:\\Calculator\\calculator_memory.txt");
@@ -159,14 +153,14 @@ public class MathOperations  {
             // input to console
             System.out.println("Input to memory " + sum);
 
-            fullMemory = memory_write(sum.toString());
+            fullMemory = memoryWrite(sum.toString());
             inputStream.close();
         } catch (IOException e){
         } catch (NumberFormatException e){}
         return fullMemory;
     }
 
-    public static String output_memory() {
+    public static String outputMemory() {
         try{
             File file = new File("D:\\Calculator\\calculator_memory.txt");
             if(!file.canExecute()){
@@ -191,7 +185,7 @@ public class MathOperations  {
         }
     }
 
-    public static boolean cleaning_memory() {
+    public static boolean cleaningMemory() {
         try{
             File file = new File("D:\\Calculator\\calculator_memory.txt");
             if(!file.canExecute()){
@@ -200,12 +194,12 @@ public class MathOperations  {
                 file.delete();
                 file.createNewFile();
             }
-            memory_write("0.0");
+            memoryWrite("0.0");
         } catch (IOException e){}
         return true;
     }
 
-    public static String about_programm() {
+    public static String aboutProgramm() {
         String s = new String();
 
         try{
