@@ -9,7 +9,7 @@ public class LogicCalculator extends MathOperations {
      public static int splitText(String text){
         String[] arrayText = text.split(" ");
         int length = arrayText.length;
-        if(length==3){
+        if(length == 3){
             if(arrayText[0] != "+" && arrayText[0] != "-" && arrayText[0] != "*" && arrayText[0] != "/"  ){
                 leftOperand = Double.parseDouble(arrayText[0]);
             }
@@ -24,13 +24,21 @@ public class LogicCalculator extends MathOperations {
 
             // input to console
             System.out.println(leftOperand + operation + rightOperand);
-        }
-         return length;
+
+            return length;
+        } else {
+
+            // input to console
+            System.out.println("Is not the right size of the string, the right size = 3");
+
+            return length;
+         }
     }
 
 
     public static String calculate(String text) {
-        LogicCalculator.splitText(text);
+        int numberOfLines = LogicCalculator.splitText(text);
+        if(numberOfLines == 3){
         switch (operation){
             case "+": return MathOperations.addition(leftOperand, rightOperand).toString();
             case "-": return MathOperations.subtraction(leftOperand, rightOperand).toString();
@@ -38,6 +46,9 @@ public class LogicCalculator extends MathOperations {
             case "/": return MathOperations.division(leftOperand, rightOperand).toString();
             default: return "operation is not right" ;
             }
+        } else {
+            return "Is not the right size of the string, the right size = 3";
+        }
     }
 
     // TODO:will soon be implemented percent(String text)
