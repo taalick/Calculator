@@ -6,10 +6,10 @@ public class LogicCalculator extends MathOperations {
     private static Double rightOperand;
     private static String operation;
 
-     public static void splitText(String text){
+     public static int splitText(String text){
         String[] arrayText = text.split(" ");
-       // int length = arrayText.length;
-      //  if(length==3){
+        int length = arrayText.length;
+        if(length==3){
             if(arrayText[0] != "+" && arrayText[0] != "-" && arrayText[0] != "*" && arrayText[0] != "/"  ){
                 leftOperand = Double.parseDouble(arrayText[0]);
             }
@@ -24,8 +24,8 @@ public class LogicCalculator extends MathOperations {
 
             // input to console
             System.out.println(leftOperand + operation + rightOperand);
-       // }
-        // return length;
+        }
+         return length;
     }
 
 
