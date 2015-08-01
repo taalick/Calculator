@@ -23,7 +23,7 @@ public class ActionContentP {
             String text2 = inputOutputText2.getText();
             int length = text2.length();
 
-            // TODO: for implementetion button_percent
+            // TODO:for implementetion button_percent
            /* if(logicCalc.MathOperations.isFractionalNumber(text2) && !text2.equals("0")){
                 text2 = "isFractionalNumber";
             }*/
@@ -114,7 +114,7 @@ public class ActionContentP {
                 if("=".equals(getActionCommandString)){
                     inputOutputText2.replaceRange(null, 0, getActionCommandString.length() ); // стираем "="
                     String text = inputOutputText1.getText();
-                    String string = LogicCalculator.equals(text);
+                    String string = LogicCalculator.calculate(text);
 
                     // input to console
                     System.out.println(string);
@@ -122,7 +122,7 @@ public class ActionContentP {
                     inputOutputText2.append(string);
                 }
 
-                // TODO: will soon be implemented
+                // TODO:will soon be implemented
                 // в случае если вызывается операция "взятие процента"
                 if("%".equals(getActionCommandString)){
                     String str = inputOutputText2.getText();
@@ -182,7 +182,7 @@ public class ActionContentP {
             inputOutputText2.append("0");
         }
     }
-    // TODO: will soon be implemented
+    // TODO:will soon be implemented
    /* private String getPersent(){
         String text = inputOutputText1.getText();
         logicCalc.LogicCalculator logicColculator = new logicCalc.LogicCalculator(text);

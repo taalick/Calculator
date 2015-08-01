@@ -69,10 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainClass.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainClass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.30357143" vertical-offset="0" max-vertical-offset="392">
+            <state line="6" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogicCalculator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/logicCalc/LogicCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="12" selection-start="551" selection-end="551" vertical-scroll-proportion="-0.30035335" vertical-offset="357" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -121,11 +130,11 @@
         <option value="$PROJECT_DIR$/src/interfaceCalc/PlansImplementation.java" />
         <option value="$PROJECT_DIR$/src/MainClass.java" />
         <option value="$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java" />
-        <option value="$PROJECT_DIR$/src/logicCalc/MathOperations.java" />
-        <option value="$PROJECT_DIR$/src/logicCalc/LogicCalculator.java" />
         <option value="$PROJECT_DIR$/src/interfaceCalc/ActionMemory.java" />
-        <option value="$PROJECT_DIR$/src/interfaceCalc/ActionContentP.java" />
         <option value="$PROJECT_DIR$/src/interfaceCalc/InformAboutProg.java" />
+        <option value="$PROJECT_DIR$/src/logicCalc/MathOperations.java" />
+        <option value="$PROJECT_DIR$/src/interfaceCalc/ActionContentP.java" />
+        <option value="$PROJECT_DIR$/src/logicCalc/LogicCalculator.java" />
       </list>
     </option>
   </component>
@@ -159,12 +168,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,7 +200,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logicCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaceCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
       </pane>
     </panes>
   </component>
@@ -435,7 +480,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="800" height="560" extended-state="1" />
+    <frame x="0" y="0" width="800" height="560" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -448,20 +493,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3225058" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39218327" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24593967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25290024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="600" height="360" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -520,21 +565,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="55" selection-start="2823" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2822">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logicCalc/MathOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="52" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="5355">
+        <state line="7" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
@@ -546,18 +577,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="55" selection-start="2823" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2822">
+        <state line="6" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="55" selection-start="2823" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2822" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/logicCalc/MathOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="52" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="5355">
+        <state line="61" column="52" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="5355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="55" selection-start="2823" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicCalc/MathOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="52" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="5355" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
@@ -569,16 +620,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logicCalc/LogicCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1394">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1394" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logicCalc/MathOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="5355">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="5355" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
@@ -666,65 +713,65 @@
         <state line="10" column="9" selection-start="423" selection-end="423" vertical-scroll-proportion="0.43367347" vertical-offset="0" max-vertical-offset="392" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logicCalc/LogicCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="33" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.7265416" vertical-offset="664" max-vertical-offset="1394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logicCalc/MathOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="20" selection-start="6360" selection-end="6360" vertical-scroll-proportion="0.15013404" vertical-offset="3191" max-vertical-offset="5236">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/ActionContentP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="65" selection-start="6641" selection-end="6641" vertical-scroll-proportion="0.007614213" vertical-offset="2564" max-vertical-offset="3315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="55" selection-start="2823" selection-end="2823" vertical-scroll-proportion="2.9340103" vertical-offset="0" max-vertical-offset="2805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InformAboutProg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="444" selection-end="444" vertical-scroll-proportion="0.5609137" vertical-offset="0" max-vertical-offset="394">
+        <state line="223" column="12" selection-start="7284" selection-end="7284" vertical-scroll-proportion="0.0" vertical-offset="3680" max-vertical-offset="5236">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaceCalc/ActionMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="-1.035533" vertical-offset="476" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/ActionMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="36" selection-start="2576" selection-end="2576" vertical-scroll-proportion="2.286802" vertical-offset="0" max-vertical-offset="1292">
+        <state line="36" column="34" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaceCalc/PlansImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.17258883" vertical-offset="0" max-vertical-offset="394">
+        <state line="9" column="18" selection-start="273" selection-end="273" vertical-scroll-proportion="0.69545454" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InformAboutProg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="386" selection-end="386" vertical-scroll-proportion="0.42323652" vertical-offset="85" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/ActionContentP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="12" selection-start="7598" selection-end="7598" vertical-scroll-proportion="0.3074205" vertical-offset="2973" max-vertical-offset="3315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="8" selection-start="6950" selection-end="6950" vertical-scroll-proportion="0.27915195" vertical-offset="2471" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/ActionMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="26" selection-start="2226" selection-end="2226" vertical-scroll-proportion="2.8233216" vertical-offset="0" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.30357143" vertical-offset="0" max-vertical-offset="392">
+        <state line="6" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicCalc/LogicCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="551" selection-end="551" vertical-scroll-proportion="-0.30035335" vertical-offset="357" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>

@@ -221,7 +221,7 @@ public class MathOperations  {
         return s;
     }
 
-    // TODO: will soon be implemented: copy(), insert(),usual(), engineering()
+    // TODO:will soon be implemented: copy(), insert(),usual(), engineering()
 
     public static void copy(){};
     public static void insert(){};
