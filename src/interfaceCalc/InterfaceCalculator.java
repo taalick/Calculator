@@ -20,6 +20,7 @@ public class InterfaceCalculator extends JFrame {
     public InterfaceCalculator(){
         super("Калькулятор");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setResizable(false);
         menuBar = new JMenuBar();
         view = new JMenu("Вид");
         setting = new JMenu("Правка");
@@ -41,21 +42,26 @@ public class InterfaceCalculator extends JFrame {
         menuBar.add(Box.createHorizontalGlue());
         setJMenuBar(menuBar);
         setContentPane(createGUI());
-        setSize(345, 302);
+        pack();
         setVisible(true);
     }
 
     private JPanel createGUI(){
 
-        inputOutputText1 = new JTextArea("0", 1, 28);
-        inputOutputText2 = new JTextArea("0", 1, 28);
-        inputOutputText3 = new JTextArea(1, 7);
+        inputOutputText1 = new JTextArea("0", 1, 10);
+        inputOutputText2 = new JTextArea("0", 1, 10);
+        inputOutputText3 = new JTextArea(1, 1);
         inputOutputText1.setLineWrap(true);
         inputOutputText2.setLineWrap(true);
+        inputOutputText1.setEditable(false);
+        inputOutputText2.setEditable(false);
+        inputOutputText3.setEditable(false);
 
-        JPanel flow = new JPanel( new FlowLayout(FlowLayout.RIGHT) );
-        JPanel grid1 = new JPanel( new GridLayout( 1,3,2,2));
-        JPanel grid2 = new JPanel( new GridLayout( 6,5,2,2) );
+        JPanel flow = new JPanel();
+        flow.setLayout(new BoxLayout(flow, BoxLayout.Y_AXIS));
+        JPanel grid1 = new JPanel( new GridLayout( 2,1,2,2));
+        JPanel grid2 = new JPanel( new GridLayout( 1,3,2,2));
+        JPanel grid3 = new JPanel( new GridLayout( 6,5,2,2) );
 
         button_memory_clear = new JButton("MC");
         button_memory_reach = new JButton("MR");
@@ -67,7 +73,7 @@ public class InterfaceCalculator extends JFrame {
         button_clear = new JButton("C");
         button_octothorpe = new JButton("+/-");
         button_octothorpe.setActionCommand("-");
-        button_sqrt = new JButton(new ImageIcon("D:\\Calculator\\square root.gif"));
+        button_sqrt = new JButton("\u221A");
         button_sqrt.setActionCommand("sqrt");
         button7 = new JButton("7");
         button8 = new JButton("8");
@@ -122,39 +128,40 @@ public class InterfaceCalculator extends JFrame {
         insert.addActionListener(new ActionMenu.ActionInsert());
         aboutProg.addActionListener(new ActionMenu.ActionAboutProg());
 
-        grid1.add(inputOutputText3);
-        grid1.add(button_delete_last_charact);
-        grid1.add(button_undo_last_action);
-        grid1.add(button_clear);
-        grid2.add(button_memory_clear);
-        grid2.add(button_memory_reach);
-        grid2.add(button_memory_set);
-        grid2.add(button_memory_add);
-        grid2.add(button_memory_minus);
-        grid2.add(button7);
-        grid2.add(button8);
-        grid2.add(button9);
-        grid2.add(button_divide);
-        grid2.add(button_sqrt);
-        grid2.add(button4);
-        grid2.add(button5);
-        grid2.add(button6);
-        grid2.add(button_multiply);
-        grid2.add(button_percent);
-        grid2.add(button1);
-        grid2.add(button2);
-        grid2.add(button3);
-        grid2.add(button_minus);
-        grid2.add(button_fraction);
-        grid2.add(button_comma);
-        grid2.add(button0);
-        grid2.add(button_octothorpe);
-        grid2.add(button_add);
-        grid2.add(button_equals);
-        flow.add(inputOutputText1);
-        flow.add(inputOutputText2);
+        grid1.add(inputOutputText1);
+        grid1.add(inputOutputText2);
+        grid2.add(inputOutputText3);
+        grid2.add(button_delete_last_charact);
+        grid2.add(button_undo_last_action);
+        grid2.add(button_clear);
+        grid3.add(button_memory_clear);
+        grid3.add(button_memory_reach);
+        grid3.add(button_memory_set);
+        grid3.add(button_memory_add);
+        grid3.add(button_memory_minus);
+        grid3.add(button7);
+        grid3.add(button8);
+        grid3.add(button9);
+        grid3.add(button_divide);
+        grid3.add(button_sqrt);
+        grid3.add(button4);
+        grid3.add(button5);
+        grid3.add(button6);
+        grid3.add(button_multiply);
+        grid3.add(button_percent);
+        grid3.add(button1);
+        grid3.add(button2);
+        grid3.add(button3);
+        grid3.add(button_minus);
+        grid3.add(button_fraction);
+        grid3.add(button_comma);
+        grid3.add(button0);
+        grid3.add(button_octothorpe);
+        grid3.add(button_add);
+        grid3.add(button_equals);
         flow.add(grid1);
         flow.add(grid2);
+        flow.add(grid3);
         return flow;
     }
 }

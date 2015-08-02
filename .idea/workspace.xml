@@ -72,7 +72,7 @@
       <file leaf-file-name="MainClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="258">
+            <state line="8" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.52918285" vertical-offset="0" max-vertical-offset="257">
               <folding />
             </state>
           </provider>
@@ -90,7 +90,7 @@
       <file leaf-file-name="InterfaceCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="0" selection-start="6973" selection-end="6973" vertical-scroll-proportion="0.0" vertical-offset="2471" max-vertical-offset="2805">
+            <state line="52" column="45" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="2924">
               <folding />
             </state>
           </provider>
@@ -99,7 +99,7 @@
       <file leaf-file-name="MathOperations.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logicCalc/MathOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="0" selection-start="7350" selection-end="7350" vertical-scroll-proportion="0.0" vertical-offset="3680" max-vertical-offset="5236">
+            <state line="224" column="0" selection-start="7350" selection-end="7350" vertical-scroll-proportion="0.0" vertical-offset="3808" max-vertical-offset="5236">
               <folding />
             </state>
           </provider>
@@ -146,13 +146,13 @@
         <option value="$PROJECT_DIR$/src/interfaceCalc/InterfaceColculator.java" />
         <option value="$PROJECT_DIR$/src/interfaceCalc/ActionMenu.java" />
         <option value="$PROJECT_DIR$/src/interfaceCalc/PlansImplementation.java" />
-        <option value="$PROJECT_DIR$/src/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java" />
         <option value="$PROJECT_DIR$/src/interfaceCalc/ActionMemory.java" />
         <option value="$PROJECT_DIR$/src/interfaceCalc/InformAboutProg.java" />
         <option value="$PROJECT_DIR$/src/logicCalc/MathOperations.java" />
         <option value="$PROJECT_DIR$/src/interfaceCalc/ActionContentP.java" />
         <option value="$PROJECT_DIR$/src/logicCalc/LogicCalculator.java" />
+        <option value="$PROJECT_DIR$/src/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java" />
       </list>
     </option>
   </component>
@@ -186,6 +186,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,9 +259,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files" />
       </pane>
@@ -323,6 +323,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -348,19 +361,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -498,9 +498,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="800" height="560" extended-state="0" />
+    <frame x="0" y="0" width="800" height="560" extended-state="1" />
     <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="600" height="360" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,8 +519,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39218327" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26218098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="600" height="360" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26450115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -574,6 +574,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicCalc/LogicCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="16" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="0" selection-start="6973" selection-end="6973" vertical-scroll-proportion="0.0" vertical-offset="2584" max-vertical-offset="2822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicCalc/MathOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="0" selection-start="7350" selection-end="7350" vertical-scroll-proportion="0.0" vertical-offset="3808" max-vertical-offset="5253">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
@@ -766,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logicCalc/LogicCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="16" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logicCalc/MathOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="224" column="0" selection-start="7350" selection-end="7350" vertical-scroll-proportion="0.0" vertical-offset="3680" max-vertical-offset="5236">
@@ -780,16 +801,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicCalc/LogicCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="16" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaceCalc/InterfaceCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="6973" selection-end="6973" vertical-scroll-proportion="0.0" vertical-offset="2471" max-vertical-offset="2805">
+        <state line="52" column="45" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="2924">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="258">
+        <state line="8" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.52918285" vertical-offset="0" max-vertical-offset="257">
           <folding />
         </state>
       </provider>
